@@ -2,7 +2,9 @@ package com.tactfactory.monprojetsb.monprojetsb;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 
+@EnableWebMvc
 @SpringBootApplication
 public class MonprojetsbApplication {
 
@@ -10,11 +12,4 @@ public class MonprojetsbApplication {
         SpringApplication.run(MonprojetsbApplication.class, args);
     }
 
-    public void toto() {
-
-    }
-
-    public void titi() {
-
-    }
 }

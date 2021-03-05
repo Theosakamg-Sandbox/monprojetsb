@@ -25,7 +25,7 @@ public class User {
 
     private String lastname;
 
-    @OneToMany
+    @OneToMany(mappedBy="owner")
     private final List<Product> products =  new ArrayList<>();
 
 }
